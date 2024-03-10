@@ -39,7 +39,7 @@ class LL{
         tail = newNode;  
     }
     public void addAfter(int data , int after){
-        Node newNode = new Node(data);
+        Node newNode = new Node(data);  
         Node curNode = head; 
         if(head == null ){
             head = newNode; 
