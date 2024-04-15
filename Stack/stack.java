@@ -44,7 +44,7 @@ public class stack{
         System.out.println("top Stack " + sta[top]);
     }
     public static void main(String[] args){
-        System.out.println("hello ");
+        // System.out.println("hello ");
         System.out.println("enter the size of stack");
         sizee = in.nextInt();
         int[] sta = new int[sizee];

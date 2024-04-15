@@ -48,7 +48,6 @@ class LL{
         }
         while( curNode != null && curNode.data != after ){
             curNode = curNode.next; 
-
         }
         newNode.next = curNode.next; 
         curNode.next = newNode; 
